@@ -29,7 +29,7 @@ Python >= 3.10. Tested on Linux (Python 3.11, numpy 2.4, scipy 1.17, tifffile 20
 
 ```bash
 pip install "git+https://github.com/abundantjoe/handcheck"          # runtime: numpy, scipy, tifffile
-pip install "handcheck[test] @ git+https://github.com/abundantjoe/handcheck"   # + pytest, opencv (tests only)
+pip install "handcheck[test] @ git+https://github.com/abundantjoe/handcheck"   # + pytest, opencv, zarr (tests)
 pip install zarr                                                     # optional: frame check on a local OME-Zarr
 ```
 
