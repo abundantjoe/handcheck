@@ -1,0 +1,496 @@
+{
+ "summary": {
+  "n_cases": 32,
+  "rule_unmirrored": 32,
+  "wrong_sign_mirrored": 32,
+  "rule_min_ncc": 0.953668475151062,
+  "rule_min_margin_over_mirror": 0.2618962526321411,
+  "wrong_sign_min_margin": 0.26189637184143066,
+  "pass_bar": {
+   "ncc": 0.8,
+   "margin": 0.2
+  }
+ },
+ "cases": [
+  {
+   "glyph": "R",
+   "frame": "ascending",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9536686539649963,
+    "lr": 0.6917724013328552
+   },
+   "wrong_sign": {
+    "id": 0.6917722821235657,
+    "lr": 0.9536688327789307
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "ascending",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9658602476119995,
+    "lr": 0.7012569308280945
+   },
+   "wrong_sign": {
+    "id": 0.7012569308280945,
+    "lr": 0.9658604264259338
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "ascending",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9658602476119995,
+    "lr": 0.7012569308280945
+   },
+   "wrong_sign": {
+    "id": 0.7012569308280945,
+    "lr": 0.9658604264259338
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "ascending",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9536686539649963,
+    "lr": 0.6917724013328552
+   },
+   "wrong_sign": {
+    "id": 0.6917722821235657,
+    "lr": 0.9536688327789307
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "rot180x",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9625862240791321,
+    "lr": 0.7004508376121521
+   },
+   "wrong_sign": {
+    "id": 0.7004508376121521,
+    "lr": 0.9625860452651978
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "rot180x",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9579177498817444,
+    "lr": 0.6910050511360168
+   },
+   "wrong_sign": {
+    "id": 0.6910050511360168,
+    "lr": 0.9579175710678101
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "rot180x",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9579177498817444,
+    "lr": 0.6910050511360168
+   },
+   "wrong_sign": {
+    "id": 0.6910050511360168,
+    "lr": 0.9579175710678101
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "rot180x",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9625862240791321,
+    "lr": 0.7004508376121521
+   },
+   "wrong_sign": {
+    "id": 0.7004508376121521,
+    "lr": 0.9625860452651978
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_z",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9625864028930664,
+    "lr": 0.7004510760307312
+   },
+   "wrong_sign": {
+    "id": 0.7004507184028625,
+    "lr": 0.9625861048698425
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_z",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9579176902770996,
+    "lr": 0.6910051703453064
+   },
+   "wrong_sign": {
+    "id": 0.6910051703453064,
+    "lr": 0.9579176902770996
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_z",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9579176902770996,
+    "lr": 0.6910051703453064
+   },
+   "wrong_sign": {
+    "id": 0.6910051703453064,
+    "lr": 0.9579176902770996
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_z",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9625864028930664,
+    "lr": 0.7004510760307312
+   },
+   "wrong_sign": {
+    "id": 0.7004507184028625,
+    "lr": 0.9625861048698425
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_x",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.953668475151062,
+    "lr": 0.6917722225189209
+   },
+   "wrong_sign": {
+    "id": 0.6917722225189209,
+    "lr": 0.9536685943603516
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_x",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9658602476119995,
+    "lr": 0.7012569308280945
+   },
+   "wrong_sign": {
+    "id": 0.7012569308280945,
+    "lr": 0.9658604264259338
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_x",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9658602476119995,
+    "lr": 0.7012569308280945
+   },
+   "wrong_sign": {
+    "id": 0.7012569308280945,
+    "lr": 0.9658604264259338
+   }
+  },
+  {
+   "glyph": "R",
+   "frame": "reflect_x",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.953668475151062,
+    "lr": 0.6917722225189209
+   },
+   "wrong_sign": {
+    "id": 0.6917722225189209,
+    "lr": 0.9536685943603516
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "ascending",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9886294007301331,
+    "lr": 0.46719297766685486
+   },
+   "wrong_sign": {
+    "id": 0.46719297766685486,
+    "lr": 0.9886294007301331
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "ascending",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.984890878200531,
+    "lr": 0.4509422481060028
+   },
+   "wrong_sign": {
+    "id": 0.45094242691993713,
+    "lr": 0.984890878200531
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "ascending",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.984890878200531,
+    "lr": 0.4509422481060028
+   },
+   "wrong_sign": {
+    "id": 0.45094242691993713,
+    "lr": 0.984890878200531
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "ascending",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9886294007301331,
+    "lr": 0.46719297766685486
+   },
+   "wrong_sign": {
+    "id": 0.46719297766685486,
+    "lr": 0.9886294007301331
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "rot180x",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9852728843688965,
+    "lr": 0.45145392417907715
+   },
+   "wrong_sign": {
+    "id": 0.45145392417907715,
+    "lr": 0.9852728843688965
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "rot180x",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9885701537132263,
+    "lr": 0.464634507894516
+   },
+   "wrong_sign": {
+    "id": 0.46463438868522644,
+    "lr": 0.9885701537132263
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "rot180x",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9885701537132263,
+    "lr": 0.464634507894516
+   },
+   "wrong_sign": {
+    "id": 0.46463438868522644,
+    "lr": 0.9885701537132263
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "rot180x",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9852728843688965,
+    "lr": 0.45145392417907715
+   },
+   "wrong_sign": {
+    "id": 0.45145392417907715,
+    "lr": 0.9852728843688965
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_z",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9852729439735413,
+    "lr": 0.45145389437675476
+   },
+   "wrong_sign": {
+    "id": 0.4514539837837219,
+    "lr": 0.9852727651596069
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_z",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9885700941085815,
+    "lr": 0.4646345376968384
+   },
+   "wrong_sign": {
+    "id": 0.4646344482898712,
+    "lr": 0.9885700941085815
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_z",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9885700941085815,
+    "lr": 0.4646345376968384
+   },
+   "wrong_sign": {
+    "id": 0.4646344482898712,
+    "lr": 0.9885700941085815
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_z",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9852729439735413,
+    "lr": 0.45145389437675476
+   },
+   "wrong_sign": {
+    "id": 0.4514539837837219,
+    "lr": 0.9852727651596069
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_x",
+   "input": "none",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9886294007301331,
+    "lr": 0.4671929180622101
+   },
+   "wrong_sign": {
+    "id": 0.4671929180622101,
+    "lr": 0.9886295795440674
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_x",
+   "input": "u",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9848906993865967,
+    "lr": 0.4509423077106476
+   },
+   "wrong_sign": {
+    "id": 0.4509423077106476,
+    "lr": 0.984890878200531
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_x",
+   "input": "v",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9848906993865967,
+    "lr": 0.4509423077106476
+   },
+   "wrong_sign": {
+    "id": 0.4509423077106476,
+    "lr": 0.984890878200531
+   }
+  },
+  {
+   "glyph": "K",
+   "frame": "reflect_x",
+   "input": "uv",
+   "state": "OK",
+   "confidence": "HIGH",
+   "rule": {
+    "id": 0.9886294007301331,
+    "lr": 0.4671929180622101
+   },
+   "wrong_sign": {
+    "id": 0.4671929180622101,
+    "lr": 0.9886295795440674
+   }
+  }
+ ]
+}

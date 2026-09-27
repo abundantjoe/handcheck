@@ -1,0 +1,3472 @@
+{
+ "inputs": {
+  "PHerc0139": {
+   "volume": "20250728140407",
+   "volume_long_id": "20250728140407-9.362um-1.2m-113keV-masked.zarr",
+   "voxel_um": 9.362,
+   "sample_type": "scroll",
+   "parity_inputs": {
+    "axes": [
+     "z",
+     "y",
+     "x"
+    ],
+    "left_handed_coordinates": false
+   },
+   "z_direction_is_top_to_bottom": true,
+   "text_side": null,
+   "umbilicus": {
+    "file": "PHerc0139/representations/umbilicus/20260102150214-umbilicus-20260826112529.json",
+    "annotated_on": "20260102150214",
+    "n_points": 391,
+    "mapped_to": "20250728140407",
+    "affine_det": 0.01699115220492705
+   },
+   "centroid": {},
+   "n_meshes": 38,
+   "seconds": 123.5
+  },
+  "PHerc0009B": {
+   "volume": "20250521125136",
+   "volume_long_id": "20250521125136-8.640um-1.2m-116keV-masked.zarr",
+   "voxel_um": 8.64,
+   "sample_type": "fragment",
+   "parity_inputs": {
+    "axes": [
+     "z",
+     "y",
+     "x"
+    ],
+    "left_handed_coordinates": false
+   },
+   "z_direction_is_top_to_bottom": true,
+   "text_side": "-y",
+   "umbilicus": {},
+   "centroid": {},
+   "n_meshes": 18,
+   "seconds": 146.4
+  },
+  "PHerc0800": {
+   "volume": "20250521135224",
+   "volume_long_id": "20250521135224-8.640um-1.2m-116keV-masked.zarr",
+   "voxel_um": 8.64,
+   "sample_type": "scroll",
+   "parity_inputs": {
+    "axes": [
+     "z",
+     "y",
+     "x"
+    ],
+    "left_handed_coordinates": false
+   },
+   "z_direction_is_top_to_bottom": false,
+   "text_side": null,
+   "umbilicus": {},
+   "centroid": {
+    "n_slices": 190,
+    "n_used": 170,
+    "sigma_vox": 256.0,
+    "axis_ratio_median": 0.6110619797692309
+   },
+   "n_meshes": 6,
+   "seconds": 41.9
+  },
+  "PHerc1447": {
+   "volume": "20250521151220",
+   "volume_long_id": "20250521151220-8.640um-1.2m-116keV-masked.zarr",
+   "voxel_um": 8.64,
+   "sample_type": "scroll",
+   "parity_inputs": {
+    "axes": [
+     "z",
+     "y",
+     "x"
+    ],
+    "left_handed_coordinates": false
+   },
+   "z_direction_is_top_to_bottom": true,
+   "text_side": null,
+   "umbilicus": {},
+   "centroid": {
+    "n_slices": 190,
+    "n_used": 168,
+    "sigma_vox": 256.0,
+    "axis_ratio_median": 0.5991863031478937
+   },
+   "n_meshes": 15,
+   "seconds": 107.8
+  }
+ },
+ "meshes": [
+  {
+   "mesh": "20250108000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0013,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0418,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 101999,
+     "agreement": 0.9996
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 102098,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250108000000-w025_2025010863",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250108000001-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0015,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9566,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 115683,
+     "agreement": 0.9967
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 116374,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9976
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250108000001-w026_2025010854",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250108000002-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.001,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9321,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 111676,
+     "agreement": 0.9988
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 112187,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9993
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250108000002-w027_2025010845",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250108000003-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0006,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8889,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 112306,
+     "agreement": 0.9992
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 112689,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9993
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250108000003-w028_2025010836",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250108000004-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0005,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8571,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 112612,
+     "agreement": 0.9998
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 112856,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9998
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250108000004-w029_2025010827",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250108000005-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0006,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9186,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 113036,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 113191,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250108000005-w030_2025010818",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250223000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0002,
+   "frame": {
+    "frac_zero_ct": 0.0362,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.595,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 155053,
+     "agreement": 0.9998
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 155205,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250223000000-w059_2025022312",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250831000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0004,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0996,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 109778,
+     "agreement": 0.9999
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 109968,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20250831000000-w040_2025083102",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20251226000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0059,
+   "frame": {
+    "frac_zero_ct": 0.0014,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.6955,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 170129,
+     "agreement": 0.9995
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 170482,
+     "agreement": 0.9999
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9999
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.006 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20251226000000-w055_2025122611",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260108000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0002,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0173,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 108506,
+     "agreement": 0.9999
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 108628,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260108000000-w041_2026010816",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260112000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0003,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9856,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 109426,
+     "agreement": 0.9996
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 109547,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260112000000-w043_2026011217",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260115000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0003,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9257,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 109169,
+     "agreement": 0.9992
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 109288,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260115000000-w044_2026011522",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260115000001-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0008,
+   "frame": {
+    "frac_zero_ct": 0.0018,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.5824,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 151802,
+     "agreement": 0.9997
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 151909,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260115000001-w056_2026011514",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260126000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0006,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8328,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 108446,
+     "agreement": 0.9995
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 108576,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260126000000-w045_2026012619",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260127000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0012,
+   "frame": {
+    "frac_zero_ct": 0.0066,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.6481,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 161771,
+     "agreement": 0.9995
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 161926,
+     "agreement": 0.9999
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9999
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260127000000-w057_2026012713",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260130000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0005,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8732,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 113540,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 113599,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260130000000-w031_2026013019",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260203000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0001,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8082,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 115557,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 115619,
+     "agreement": 0.9999
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260203000000-w032_2026020303",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260206000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9976,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 103438,
+     "agreement": 0.9998
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 103545,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260206000000-w042_2026020613",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260206000001-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0009,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.7901,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 108510,
+     "agreement": 0.9993
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 108539,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260206000001-w047_2026020613",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260206000002-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0053,
+   "frame": {
+    "frac_zero_ct": 0.0008,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8286,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 178213,
+     "agreement": 0.9992
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 178507,
+     "agreement": 0.9999
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9999
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.005 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260206000002-w054_2026020617",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260210000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0001,
+   "frame": {
+    "frac_zero_ct": 0.0158,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.6211,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 159056,
+     "agreement": 0.9997
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 159234,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260210000000-w058_2026021020",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260215000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0011,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0527,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 96422,
+     "agreement": 0.9998
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 96447,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260215000000-w024_2026021572",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260219000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0003,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8299,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 117433,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 117490,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260219000000-w033_2026021913",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260219000001-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0012,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.7402,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 108356,
+     "agreement": 0.9993
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 108397,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260219000001-w048_2026021912",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260220000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0027,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.7769,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 165014,
+     "agreement": 0.9996
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 165147,
+     "agreement": 0.9998
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.003 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260220000000-w053_2026022021",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260227000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0037,
+   "frame": {
+    "frac_zero_ct": 0.0018,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8012,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 166146,
+     "agreement": 0.9996
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 166457,
+     "agreement": 0.9997
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9999
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.004 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260227000000-w052_2026022705",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260302000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0021,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0973,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 104200,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 104313,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260302000000-w039_2026030210",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260302000001-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.7476,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 45253,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 45254,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260302000001-w050_2026030220",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260303000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0002,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.7922,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 117078,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 117128,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260303000000-w034_2026030317",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260306000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0728,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 98551,
+     "agreement": 0.9996
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 98587,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260306000000-w038_2026030608",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260306000001-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0038,
+   "frame": {
+    "frac_zero_ct": 0.0002,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8379,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 163030,
+     "agreement": 0.9992
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 163285,
+     "agreement": 0.9997
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9999
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.004 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260306000001-w051_2026030600",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260310000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0017,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0334,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 93485,
+     "agreement": 0.9997
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 93522,
+     "agreement": 0.9999
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9999
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.002 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260310000000-w037_2026031015",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260311000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0004,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.246,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 91502,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 91527,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260311000000-w023_202603112281",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260316000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0001,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.0754,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 88023,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 88033,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260316000000-w036_2026031607",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260317000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0002,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.5701,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 63461,
+     "agreement": 1.0
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 63457,
+     "agreement": 0.9999
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260317000000-w035_2026031718",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260318000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0014,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.9174,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 118163,
+     "agreement": 0.9995
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 118176,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260318000000-w049_20260318",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260325000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0006,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 1.8333,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 108769,
+     "agreement": 0.9995
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 108906,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260325000000-w046_20260325",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20260422000000-on-20250728140407-9.362um.tifxyz",
+   "state": "OK",
+   "confidence": "HIGH",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0043,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "normal_line_centre",
+    "umbilicus"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.7694,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 20432,
+     "agreement": 0.9968
+    },
+    "umbilicus": {
+     "sign": 1,
+     "n_clear": 20677,
+     "agreement": 0.9997
+    },
+    "pairwise_agreement": {
+     "normal_line_centre_vs_umbilicus": 0.9992
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.004 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0139",
+   "segment": "20260422000000-title_2026042222_zmid_flatboi",
+   "volume": "20250728140407",
+   "voxel_um": 9.362
+  },
+  {
+   "mesh": "20250510172639-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0646,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0646,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.065, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250510172639",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250510172804-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0064,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 57579,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250510172804",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250511200236-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0837,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0837,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.084, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250511200236",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919064353-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0063,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 60641,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919064353-auto_grown_20250918234353791",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919123506-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0639,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0639,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.064, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919123506-auto_grown_20250919053506178_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919124722-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0386,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 67400,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919124722-auto_grown_20250919054722721_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919124917-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0026,
+   "frame": {
+    "frac_zero_ct": 0.0399,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 51836,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "reversed patch masked out: 0.003 of clear vertices",
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919124917-auto_grown_20250919054917419_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919125302-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0001,
+   "frame": {
+    "frac_zero_ct": 0.0053,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 51166,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "reversed patch masked out: 0.000 of clear vertices",
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919125302-auto_grown_20250919055302061",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919125605-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0078,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 65865,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919125605-auto_grown_20250919055605407",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919125754-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.1208,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.1208,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.121, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919125754-auto_grown_20250919055754487_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919130642-on-20250521125136-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0005,
+   "frame": {
+    "frac_zero_ct": 0.0018,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "text_side"
+   ],
+   "sources": {
+    "text_side": {
+     "sign": 1,
+     "n_clear": 61102,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "reversed patch masked out: 0.001 of clear vertices",
+    "single valid source (text_side)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919130642-auto_grown_20250919060642061",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919131352-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0978,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0978,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.098, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919131352-auto_grown_20250919061352722_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919131642-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0506,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0506,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.051, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919131642-auto_grown_20250919061642215_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919132115-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.079,
+    "frac_outside": 0.0005
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.079,
+     "frac_outside": 0.0005
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.079, outside 0.001"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919132115-auto_grown_20250919062115592_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919133208-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.074,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.074,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.074, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919133208-auto_grown_20250919063208154_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919135433-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.1186,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.1186,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.119, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919135433-auto_grown_20250919065433578_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919135915-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0545,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0545,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.054, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919135915-auto_grown_20250919065915092_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250919140325-on-20250521125136-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.0555,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.0555,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.055, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0009B",
+   "segment": "20250919140325-auto_grown_20250919070325767_inp_hr",
+   "volume": "20250521125136",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251028213516-on-20250521135224-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 14.8734,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 5998,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 14.9 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0800",
+   "segment": "20251028213516-auto_grown_20251028213516907",
+   "volume": "20250521135224",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251028220042-on-20250521135224-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 13.0586,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 5574,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 13.1 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0800",
+   "segment": "20251028220042-auto_grown_20251028220042762",
+   "volume": "20250521135224",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251028220955-on-20250521135224-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 15.4949,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 5373,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 15.5 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0800",
+   "segment": "20251028220955-auto_grown_20251028220955262",
+   "volume": "20250521135224",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251028222030-on-20250521135224-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 14.2818,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 8152,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 14.3 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0800",
+   "segment": "20251028222030-auto_grown_20251028222030940",
+   "volume": "20250521135224",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251028225813-on-20250521135224-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 16.6666,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 6433,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 16.7 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0800",
+   "segment": "20251028225813-auto_grown_20251028225813045",
+   "volume": "20250521135224",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251029010146-on-20250521135224-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 23.4369,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 1337,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 23.4 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc0800",
+   "segment": "20251029010146-auto_grown_20251029010146642",
+   "volume": "20250521135224",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502180708-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.9064,
+    "frac_outside": 0.0485
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.9064,
+     "frac_outside": 0.0485
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.906, outside 0.049"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502180708-auto_grown_20250502160708188",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502180748-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.5929,
+    "frac_outside": 0.0493
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.5929,
+     "frac_outside": 0.0493
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.593, outside 0.049"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502180748-auto_grown_20250502160748721",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502182142-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.4121,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.4121,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.412, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502182142-auto_grown_20250502161324419",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502182456-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.5912,
+    "frac_outside": 0.1125
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.5912,
+     "frac_outside": 0.1125
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.591, outside 0.113"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502182456-auto_grown_20250502161202782",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502183138-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.5239,
+    "frac_outside": 0.0
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.5239,
+     "frac_outside": 0.0
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.524, outside 0.000"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "HIGH",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502183138-auto_grown_20250502162038685",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502183421-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.632,
+    "frac_outside": 0.0191
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.632,
+     "frac_outside": 0.0191
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.632, outside 0.019"
+   ],
+   "without_frame_gate": {
+    "state": "FLAG",
+    "confidence": "FLAG",
+    "mirrored_as_stored": null
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502183421-auto_grown_20250502161744358",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502184201-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.6263,
+    "frac_outside": 0.1863
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.6263,
+     "frac_outside": 0.1863
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.626, outside 0.186"
+   ],
+   "without_frame_gate": {
+    "state": "FLAG",
+    "confidence": "FLAG",
+    "mirrored_as_stored": null
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502184201-auto_grown_20250502163549332",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502184658-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.5823,
+    "frac_outside": 0.1599
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.5823,
+     "frac_outside": 0.1599
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.582, outside 0.160"
+   ],
+   "without_frame_gate": {
+    "state": "FLAG",
+    "confidence": "FLAG",
+    "mirrored_as_stored": null
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502184658-auto_grown_20250502163923577",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502184845-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.466,
+    "frac_outside": 0.1426
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.466,
+     "frac_outside": 0.1426
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.466, outside 0.143"
+   ],
+   "without_frame_gate": {
+    "state": "FLAG",
+    "confidence": "FLAG",
+    "mirrored_as_stored": null
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502184845-auto_grown_20250502164121265",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502185519-on-20250521151220-8.64um.tifxyz",
+   "state": "FRAME_UNVERIFIED",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 0,
+   "reversed_frac": null,
+   "frame": {
+    "frac_zero_ct": 0.553,
+    "frac_outside": 0.0724
+   },
+   "sources_used": [],
+   "sources": {
+    "frame": {
+     "frac_zero_ct": 0.553,
+     "frac_outside": 0.0724
+    }
+   },
+   "flags": [
+    "mesh not on the scroll in its declared frame: zero CT 0.553, outside 0.072"
+   ],
+   "without_frame_gate": {
+    "state": "FLAG",
+    "confidence": "FLAG",
+    "mirrored_as_stored": null
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502185519-auto_grown_20250502164303733",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250502205333-on-20250521151220-8.64um.tifxyz",
+   "state": "FLAG",
+   "confidence": "FLAG",
+   "mirrored_as_stored": null,
+   "mirror_u": null,
+   "flip_v": null,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0312,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid",
+    "normal_line_centre"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 9.735,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 13796,
+     "agreement": 0.9516
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 12415,
+     "agreement": 0.763
+    },
+    "pairwise_agreement": {
+     "centroid_vs_normal_line_centre": 0.7482
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.031 of clear vertices",
+    "weak agreement {'centroid': 0.7630371297455152, 'normal_line_centre': 0.9515948308060058}, pairwise {'centroid_vs_normal_line_centre': 0.7482434605942606}, reversed 0.031 (HIGH and single-source MEDIUM need reversed <= 0.02)"
+   ],
+   "without_frame_gate": {
+    "state": "FLAG",
+    "confidence": "FLAG",
+    "mirrored_as_stored": null
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250502205333-auto_grown_20250502181030065",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250702235910-on-20250521151220-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 15.3409,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 14289,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 15.3 > 10.0)",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250702235910-auto_grown_20250702235910292",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250703025628-on-20250521151220-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0114,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 33.1291,
+     "valid": false
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 23499,
+     "agreement": 1.0
+    },
+    "pairwise_agreement": {}
+   },
+   "flags": [
+    "normal-line centre ill-conditioned (cond 33.1 > 10.0)",
+    "reversed patch masked out: 0.011 of clear vertices",
+    "single valid source (centroid)"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250703025628-auto_grown_20250703025628283",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20250703034159-on-20250521151220-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.007,
+   "frame": {
+    "frac_zero_ct": 0.0,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid",
+    "normal_line_centre"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 2.7839,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 26232,
+     "agreement": 0.9563
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 25668,
+     "agreement": 0.9978
+    },
+    "pairwise_agreement": {
+     "centroid_vs_normal_line_centre": 0.9751
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.007 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20250703034159-auto_grown_20250703034159599",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  },
+  {
+   "mesh": "20251105093211-on-20250521151220-8.64um.tifxyz",
+   "state": "OK",
+   "confidence": "MEDIUM",
+   "mirrored_as_stored": false,
+   "mirror_u": false,
+   "flip_v": false,
+   "rot180_equivalent": false,
+   "parity": 1,
+   "chirality": 1,
+   "reversed_frac": 0.0552,
+   "frame": {
+    "frac_zero_ct": 0.0141,
+    "frac_outside": 0.0
+   },
+   "sources_used": [
+    "centroid",
+    "normal_line_centre"
+   ],
+   "sources": {
+    "normal_line_centre": {
+     "cond_median": 7.7199,
+     "valid": true,
+     "sign": 1,
+     "n_clear": 27125,
+     "agreement": 0.9998
+    },
+    "centroid": {
+     "sign": 1,
+     "n_clear": 27079,
+     "agreement": 0.9998
+    },
+    "pairwise_agreement": {
+     "centroid_vs_normal_line_centre": 1.0
+    }
+   },
+   "flags": [
+    "reversed patch masked out: 0.055 of clear vertices"
+   ],
+   "without_frame_gate": {
+    "state": "OK",
+    "confidence": "MEDIUM",
+    "mirrored_as_stored": false
+   },
+   "scroll": "PHerc1447",
+   "segment": "20251105093211-z_dbg_gen_00320",
+   "volume": "20250521151220",
+   "voxel_um": 8.64
+  }
+ ]
+}
